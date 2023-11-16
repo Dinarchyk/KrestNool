@@ -21,7 +21,7 @@ namespace KrestNool
             int diagonal = CheckDiagonal(boardData);
             if (diagonal != 0) return diagonal;
 
-            return CheckDiagonal(boardData);
+            return CheckDraw(boardData);
         }
 
         private static int CheckHorizontal(char[] boardData)
